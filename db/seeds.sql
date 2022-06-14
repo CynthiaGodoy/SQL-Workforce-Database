@@ -1,7 +1,5 @@
 USE employee_db;
 
--- TRUNCATE TABLE department;
-
 INSERT INTO department (name)
 VALUES 
 ('Executive'),
@@ -13,8 +11,6 @@ VALUES
 ('Human Resources');
 
 SELECT * FROM department;
-
--- TRUNCATE TABLE `role`;
 
 INSERT INTO role (title,salary,department_id)
 VALUES 
@@ -30,8 +26,6 @@ VALUES
 ('Human Resource Officer',65000,7);
 
 SELECT * from `role`;
-
--- TRUNCATE TABLE employee;
 
 INSERT INTO employee (first_name,last_name,role_id,manager_id)
 VALUES 
