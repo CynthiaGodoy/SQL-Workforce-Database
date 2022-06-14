@@ -44,10 +44,16 @@ Then run the seeds file:
 SOURCE db/seeds.sql
 ```
 
+Then run the file:
+```
+SOURCE db/queryEmployee.sql
+```
+
 Exit SQL and run in Node Terminal:
 ```
 exit
 ```
+
 Run the program and follow the prompts:
 ```
 npm start
@@ -106,7 +112,7 @@ npm install dotenv --save
 
 * A walkthrough video that demonstrate the functionality of the SQL Employee Tracker
 
-[Screencastify](https://drive.google.com/file/d/1vyFfsiRHijS1XQcgKJ2fkMKgQopLuyie/view)
+[Screencastify](https://drive.google.com/file/d/1hkmh7WIR1Z1AFCT2YAyO-gfYyUFJsjem/view)
 
 ## Screenshot
 ![](images/Screenshot.PNG)
